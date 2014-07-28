@@ -1,0 +1,236 @@
+/* A Linux- and Windows-friendly sans-serif font stack: http://prospects.mhurrell.co.uk/post/updating-the-helvetica-font-stack */
+body {font: 13px Helmet, Freesans, sans-serif;}
+
+/* Using local fonts? Check out Font Squirrel's webfont generator: http://www.fontsquirrel.com/tools/webfont-generator */
+
+/* We like off-black for text. */
+body, select, input, textarea {color: #333;}
+
+a {color: #03f;}
+a:hover {color: #69f;}
+
+/* Custom text-selection colors (remove any text shadows: http://twitter.com/miketaylr/status/12228805301) */
+::-moz-selection{background: #fcd700; color: #fff; text-shadow: none;}
+::selection {background: #fcd700; color: #fff; text-shadow: none;} 
+
+/*	j.mp/webkit-tap-highlight-color */
+a:link {-webkit-tap-highlight-color: #fcd700;} 
+
+ins {background-color: #fcd700; color: #000; text-decoration: none;}
+mark {background-color: #fcd700; color: #000; font-style: italic; font-weight: bold;}
+
+/* Mozilla dosen't style place holders by default */
+input:-moz-placeholder { color:#a9a9a9; }
+textarea:-moz-placeholder { color:#a9a9a9; }
+
+
+
+body{
+	background-color: #000000;
+}
+
+.wrapper{
+	width: 1025px;
+	margin: 0 auto;
+	background-color: #FFFFFF;
+}
+
+.conterImg{
+	width: 1025px;
+	float: left;
+}
+.conterImg img{
+	width: 100%;
+	display: block;
+	float: left;
+}
+
+#video_1{
+	width: 1025px;
+	height: 452px;
+	background-image: url("http://nestle-waters.b0.upaiyun.com/Nestle/image/img2.jpg");
+	background-repeat: no-repeat;
+	float: left;
+}
+
+#video_1 .top_video{
+	width: 804px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: -30px;
+}
+
+#video_1 .title{
+	color: #FFFFFF;
+	font-size: 22px;
+	font-weight: bold;
+	font-family: "Helvetica Neue";
+	margin-bottom: 4px;
+	margin-right: 4px;
+}
+
+.info{
+	width: 1024px;
+	height: 362px;
+	background-color: #293B4F;
+	float: left;
+}
+
+.info_1{
+	margin-top: 30px;
+	width: 280px;
+	color: #FFFFFF;
+	margin-left: 60px;
+	float: left;
+}
+
+.info_2{
+	margin-top: 30px;
+	width: 280px;
+	color: #FFFFFF;
+	margin-left: 28px;
+	float: left
+}
+
+.info_3{
+	margin-top: 30px;
+	width: 280px;
+	color: #FFFFFF;
+	margin-left: 28px;
+	float: left
+}
+
+.info .tit{
+	background-color: #188AC6;
+	font-family: "微软雅黑";
+	font-size: 16px;
+	font-weight: bold;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 18px;
+	padding-right: 18px;
+	-moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+}
+
+
+.info .cont{
+	font-family: "微软雅黑";
+	font-size: 14px;
+	margin-top: 16px;
+	display: block;
+	line-height: 148%;
+}
+
+.info_1 .tit{
+	margin-left: 50px;
+}
+.info_2 .tit{
+	margin-left: 90px;
+}
+.info_3 .tit{
+	margin-left: 70px;
+}
+
+
+
+
+#example_video_1{
+	width: 804px;
+	height: 452px;
+	margin: 0 auto;
+}
+
+.vjs-default-skin .vjs-big-play-button{
+	margin-left: -60px;
+	margin-top: -39px;
+	left: 50%;
+	top: 50%;
+}
+
+.phone_info{
+	color: #FFFFFF;
+	font-family: "微软雅黑";
+	display: block;
+	width: 160px;
+	height: 40px;
+	z-index: 9;
+	position: relative;
+	float: left;
+	background-color: #2A3B4F;
+}
+
+.pi_1{
+	margin-left: -856px;
+	margin-top: 554px;
+}
+
+.pi_2{
+	margin-left: -566px;
+	margin-top: 554px;
+}
+
+.pi_3{
+	margin-left: -266px;
+	margin-top: 554px;
+}
+.pi_4{
+	margin-left: -856px;
+	margin-top: 550px;
+}
+.pi_5{
+	margin-left: -566px;
+	margin-top: 550px;
+}
+.pi_6{
+	margin-left: -266px;
+	margin-top: 540px;
+	width: 170px;
+	height: 60px;
+}
+
+.contact_we{
+	width: 1024px;
+	height: 296px;
+	margin: 0 auto;
+	background-color: #1A2B3B;
+	float: left;
+}
+.qrcode{
+	float: left;
+	width: 100px;
+	margin-top: 100px;
+	margin-left: 104px;
+}
+.nestle_logo{
+	float: left;
+	width: 310px;
+	margin-left: 166px;
+	margin-top: 20px;
+}
+.app_logo{
+	float: left;
+	width: 120px;
+	margin-left: 120px;
+	margin-top: 60px;
+}
+
+
+/* Media queries
+-------------------------------------------------------------------------------*/
+
+@media screen and (max-width: 480px) {
+	
+		
+}
+
+
+
+/* Print styles
+-------------------------------------------------------------------------------*/
+@media print {
+
+
+
+}
