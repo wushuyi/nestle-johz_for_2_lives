@@ -68,6 +68,12 @@ body{
 	margin-bottom: 4px;
 	margin-right: 4px;
 }
+#video_2{
+	width: 1025px;
+	height: 452px;
+	float: left;
+	background-color: #293B4F;
+}
 
 .info{
 	width: 1024px;
